@@ -23,3 +23,17 @@ Large language models (LLMs) have demonstrated impressive capabilities in natura
 The whole dataset is publicly accessible at: [CReTIHC GitHub Repository](https://github.com/ChangwooChun/CReTIHC)
 
 *Corresponding author: Heuiseok Lim* ($\dagger$)
+
+
+## Citation
+If you find this work useful for your research, please cite it using the following BibTeX entry:
+
+```bibtex
+@inproceedings{chun-2023-cretihc,
+  title={CReTIHC: Designing Causal Reasoning Tasks about Temporal Interventions and Hallucinated Confoundings},
+  author={Changwoo Chun and Songeun Lee and Jaehyung Seo and Heuiseok Lim},
+  conference={Empirical Methods in Natural Language Processing},
+  month = {Dec},
+  year={2023},
+  publisher={Association for Computational Linguistics}
+}
