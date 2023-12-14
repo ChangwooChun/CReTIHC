@@ -29,11 +29,21 @@ The whole dataset is publicly accessible at: [CReTIHC GitHub Repository](https:/
 If you find this work useful for your research, please cite it using the following BibTeX entry:
 
 ```bibtex
-@inproceedings{chun-2023-cretihc,
-  title={CReTIHC: Designing Causal Reasoning Tasks about Temporal Interventions and Hallucinated Confoundings},
-  author={Changwoo Chun and Songeun Lee and Jaehyung Seo and Heuiseok Lim},
-  conference={Empirical Methods in Natural Language Processing},
-  month = {Dec},
-  year={2023},
-  publisher={Association for Computational Linguistics}
+@inproceedings{chun-etal-2023-cretihc,
+    title = "{CR}e{TIHC}: Designing Causal Reasoning Tasks about Temporal Interventions and Hallucinated Confoundings",
+    author = "Chun, Changwoo  and
+      Lee, SongEun  and
+      Seo, Jaehyung  and
+      Lim, Heuiseok",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.693",
+    pages = "10334--10343",
+    abstract = "Large language models (LLMs) have demonstrated impressive capabilities in natural language processing. However, their ability to establish causal relationships, particularly in the context of temporal interventions and language hallucinations, remains challenging. This paper presents \textbf{CReTIHC}, a novel dataset designed to test and enhance the causal reasoning abilities of LLMs. The dataset is constructed using a unique approach that incorporates elements of verbal hallucinations and temporal interventions through the reengineering of existing causal inference datasets. This transformation creates complex scenarios that push LLMs to critically evaluate the information presented and identify cause-and-effect relationships. The CReTIHC dataset serves as a pioneering tool for improving LLM{'}s causal inference capabilities, paving the way for a more nuanced understanding of causal relationships in natural language processing (NLP) tasks. The whole dataset is publicly accessible at: (https://github.com/ChangwooChun/CReTIHC)",
 }
